@@ -3,11 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WebApplication1.Controllers
+
+
+namespace WebApplication1.Controller
+
 {
+HttpPost [FormMethod.Post]
     public class Pessoa
     {
-     
+    
         public int Id { FormMethod.Post; set; }
         
         
@@ -15,4 +19,7 @@ namespace WebApplication1.Controllers
         public string DataNAscimento { FormMethod.Post; set; }
       
     }
+    
+
+   
 }
