@@ -4,15 +4,15 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace WebApplication1.Models
-{ [
-    Route("api/[controller]")]
+{ 
+    [Route("api/[controller]")]
     [ApiController]
     public class Paging
     {   
-       [Route("/articles/{page}")]
+       [Route("/articles/{PageSize}")]
         public int PageSize {set; }
         
-        [Route("/articles/{page}")]
+        [Route("/articles/{CurrentPage}")]
         public int CurrentPage {set; }
     }
 }
