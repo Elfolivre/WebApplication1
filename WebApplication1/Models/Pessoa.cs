@@ -11,11 +11,13 @@ namespace WebApplication1.Controller
  [HttpPost]
     public class Pessoa
     {
-    
-        public int Id { set;}
-        
-        
+     [Route("receber/{id;string}")]
+      public int Id { set;}
+     
+     [Route("receber/{Nome;string}")]
         public string Nome { set;}
+     
+     [Route("receber/{DataNascimento;string}")]
         public string DataNAscimento { set; }
       
     }
