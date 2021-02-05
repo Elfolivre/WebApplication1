@@ -10,9 +10,9 @@ namespace WebApplication1.Models
     public class Paging
     {   
        [Route("/articles/{page}")]
-        public int PageSize { get ;set; }
+        public int PageSize {set; }
         
         [Route("/articles/{page}")]
-        public int CurrentPage { get;  set; }
+        public int CurrentPage {set; }
     }
 }
