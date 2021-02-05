@@ -8,10 +8,10 @@ namespace WebApplication1.Controllers
     public class Pessoa
     {
      
-        public int Id { get; set; }
+        public int Id { post; set; }
         
-        public string Nome { get; set; }
-        public string DataNAscimento { get; set; }
+        public string Nome { post; set; }
+        public string DataNAscimento { post; set; }
 
       
     }
