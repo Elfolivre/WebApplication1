@@ -7,7 +7,7 @@ namespace WebApplication1.Models
 {    [HttpPost]   
      [Route("api/[controller]")]
     [ApiController]
-    public class Paging
+    public class Pagging
     {   
        [Route("/articles/{PageSize}")]
         public int PageSize {set; }
