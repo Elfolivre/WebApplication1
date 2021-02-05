@@ -7,12 +7,12 @@ namespace WebApplication1.Models
 { [
     Route("api/[controller]")]
     [ApiController]
-    [HttpPost]
-    public class Pagging
+    public class Paging
     {   
-        [Route("receber/{PageSize;int}")]
-        public int PageSize { set; }
-        [Route("receber/CurrentPage;int")]
-        public int CurrentPage { set; }
+       [Route("/articles/{page}")]
+        public int PageSize { get ;set; }
+        
+        [Route("/articles/{page}")]
+        public int CurrentPage { get;  set; }
     }
 }
