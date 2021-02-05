@@ -4,8 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace WebApplication1.Models
-{ 
-    [Route("api/[controller]")]
+{    [HttpPost]   
+     [Route("api/[controller]")]
     [ApiController]
     public class Paging
     {   
