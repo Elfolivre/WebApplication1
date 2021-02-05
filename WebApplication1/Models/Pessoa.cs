@@ -8,15 +8,15 @@ using System.Threading.Tasks;
 namespace WebApplication1.Controller
 
 {
-HttpPost [FormMethod.Post]
+ [HttpPost]
     public class Pessoa
     {
     
-        public int Id { FormMethod.Post; set; }
+        public int Id { set; FormMethod.Post; }
         
         
-        public string Nome { FormMethod.Post; set; }
-        public string DataNAscimento { FormMethod.Post; set; }
+        public string Nome { set; FormMethod.Post; }
+        public string DataNAscimento { set; FormMethod.Post; }
       
     }
     
