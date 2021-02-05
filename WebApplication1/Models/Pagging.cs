@@ -8,9 +8,9 @@ namespace WebApplication1.Models
     [HttpPost]
     public class Pagging
     {   
-        [Route("receber/{PageSize;string}")]
+        [Route("receber/{PageSize;int}")]
         public int PageSize { set; }
-        [Route("receber/CurrentPage;string")]
+        [Route("receber/CurrentPage;int")]
         public int CurrentPage { set; }
     }
 }
