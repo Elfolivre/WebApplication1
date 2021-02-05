@@ -4,10 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace WebApplication1.Models
-{
+{ 
+    [HttpPost]
     public class Pagging
     {
-        public int PageSize { get; set; }
-        public int CurrentPage { get; set; }
+        public int PageSize { set; }
+        public int CurrentPage { set; }
     }
 }
