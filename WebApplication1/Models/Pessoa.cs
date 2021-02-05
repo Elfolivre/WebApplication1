@@ -8,11 +8,11 @@ namespace WebApplication1.Controllers
     public class Pessoa
     {
      
-        public int Id { post; set; }
+        public int Id { FormMethod.Post; set; }
         
-        public string Nome { post; set; }
-        public string DataNAscimento { post; set; }
-
+        
+        public string Nome { FormMethod.Post; set; }
+        public string DataNAscimento { FormMethod.Post; set; }
       
     }
 }
